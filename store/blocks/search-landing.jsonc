@@ -1,0 +1,29 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingbanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+
+    "image#landingbanner": {
+        "props": {
+            "minWidth": "100%",
+            "src": "https://images.daznservices.com/di/library/CONMEBOL_Image_Storage/e1/4f/river-plate-campeon-2018_10pwcj3ha799q1snpqq5u0t1kc.jpg?t=-112628483&w=1920&h=1080"
+        }
+    },
+
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "queryField": "Blue Top Retro Camera",
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip",
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8
+
+            }
+        }
+    }
+}
