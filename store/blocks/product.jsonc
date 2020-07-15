@@ -31,8 +31,8 @@
   },
   "product-brand": {
     "props": {
-      "displayMode": "text",
-      "height": 40
+      "displayMode": "logo",
+      "height": 30
     }
   },
 
@@ -64,11 +64,11 @@
       "product-quantity"
     ]
   },
-
+  
   "sku-selector": {
     "props": {
       "initialSelection": "empty",
-      "showValueForVariation": "all",
+      "showValueForVariation": "image",
       "showVariationsErrorMessage": true
     }
   }
