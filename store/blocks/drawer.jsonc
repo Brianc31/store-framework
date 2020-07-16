@@ -59,20 +59,20 @@
   },
   "vtex.menu@2.x:submenu.accordion#major":{
       "children":[
-          "vtex.menu@2.x:menu#major"
+          "vtex.menu@2.x:menu#major2"
       ]
     },
   "vtex.menu@2.x:submenu.accordion#small":{
     "children":[
-        "vtex.menu@2.x:menu#small"
+        "vtex.menu@2.x:menu#small2"
     ]
   },
   "vtex.menu@2.x:submenu.accordion#electronics":{
     "children":[
-        "vtex.menu@2.x:menu#electronics"
+        "vtex.menu@2.x:menu#electronics2"
     ]
   },
-  "vtex.menu@2.x:menu#major":{
+  "vtex.menu@2.x:menu#major2":{
     "children": [
         "menu-item#refrigerators",
         "menu-item#ovens",
@@ -82,7 +82,7 @@
           "orientation": "vertical"
       }
   },
-  "vtex.menu@2.x:menu#small":{
+  "vtex.menu@2.x:menu#small2":{
       "children": [
           "menu-item#mixers",
           "menu-item#toasters",
@@ -92,7 +92,7 @@
             "orientation": "vertical"
         }
   },
-  "vtex.menu@2.x:menu#electronics":{
+  "vtex.menu@2.x:menu#electronics2":{
       "children": [
           "menu-item#cameras",
           "menu-item#laptops",
