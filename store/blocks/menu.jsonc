@@ -10,6 +10,12 @@
         }
     },
 
+    "vtex.menu@2.x:submenu#major": {
+        "children": [
+          "vtex.menu@2.x:menu#submenumajor"
+        ]
+    },
+
     "vtex.menu@2.x:menu#submenumajor": {
         "children": [
             "menu-item#refrigerators",
@@ -21,6 +27,12 @@
         }
     },
 
+    "vtex.menu@2.x:submenu#small": {
+        "children": [
+          "vtex.menu@2.x:menu#submenusmall"
+        ]
+    },
+
     "vtex.menu@2.x:menu#submenusmall": {
         "children": [
             "menu-item#mixers",
@@ -30,6 +42,12 @@
         "props":{
             "orientation": "vertical"
         }
+    },
+
+    "vtex.menu@2.x:submenu#electronics": {
+        "children": [
+          "vtex.menu@2.x:menu#submenuelectronics"
+        ]
     },
 
     "vtex.menu@2.x:menu#submenuelectronics": {

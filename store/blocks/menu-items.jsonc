@@ -12,11 +12,7 @@
       ]
   },
 
-  "vtex.menu@2.x:submenu#major": {
-    "children": [
-      "vtex.menu@2.x:menu#submenumajor"
-    ]
-  },
+  
 
  
 
@@ -35,11 +31,7 @@
     ]
   },
 
-  "vtex.menu@2.x:submenu#small": {
-    "children": [
-      "vtex.menu@2.x:menu#submenusmall"
-    ]
-  },
+  
 
   
 
@@ -57,11 +49,7 @@
     ]
   },
 
-  "vtex.menu@2.x:submenu#electronics": {
-    "children": [
-      "vtex.menu@2.x:menu#submenuelectronics"
-    ]
-  },
+  
 
   
 
