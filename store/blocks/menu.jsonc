@@ -10,6 +10,11 @@
         }
     },
 
+
+
+
+    
+
     "vtex.menu@2.x:submenu#major": {
         "children": [
             "flex-layout.row#major"
@@ -26,6 +31,14 @@
             "orientation": "vertical"
         }
     },
+
+
+
+
+
+
+
+
 
     "vtex.menu@2.x:submenu#small": {
         "children": [
