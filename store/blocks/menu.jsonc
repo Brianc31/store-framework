@@ -8,6 +8,39 @@
         "props":{
             "orientation": "horizontal"
         }
-    }   
+    },
+
+    "vtex.menu@2.x:menu#submenumajor": {
+        "children": [
+            "menu-item#refrigerators",
+            "menu-item#ovens",
+            "menu-item#washers"
+        ],
+        "props":{
+            "orientation": "vertical"
+        }
+    },
+
+    "vtex.menu@2.x:menu#submenusmall": {
+        "children": [
+            "menu-item#mixers",
+            "menu-item#toasters",
+            "menu-item#coffee"
+        ],
+        "props":{
+            "orientation": "vertical"
+        }
+    },
+
+    "vtex.menu@2.x:menu#submenuelectronics": {
+        "children": [
+            "menu-item#cameras",
+            "menu-item#laptops",
+            "menu-item#tvs"
+        ],
+        "props":{
+            "orientation": "vertical"
+        }
+    }
     
 }
